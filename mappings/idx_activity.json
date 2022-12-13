@@ -1,0 +1,21 @@
+{
+  "mappings": {
+    "properties": {
+      "date": {
+        "type": "date"
+      },
+      "steps": {
+        "type": "long"
+      },
+      "distance": {
+        "type": "long"
+      },
+      "runDistance": {
+        "type": "long"
+      },
+      "calories": {
+        "type": "long"
+      }
+    }
+  }
+}

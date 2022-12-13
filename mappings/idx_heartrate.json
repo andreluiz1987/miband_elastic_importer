@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "properties": {
+      "date": {
+        "type": "date"
+      },
+      "datetime": {
+        "type": "date"
+      },
+      "heartRate": {
+        "type": "long"
+      },
+      "time": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      }
+    }
+  }
+}

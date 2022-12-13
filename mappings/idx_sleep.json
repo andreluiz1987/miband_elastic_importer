@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "properties": {
+      "date": {
+        "type": "date"
+      },
+      "deepSleepTime": {
+        "type": "long"
+      },
+      "shallowSleepTime": {
+        "type": "long"
+      },
+      "wakeTime": {
+        "type": "long"
+      },
+      "start": {
+        "type": "date"
+      },
+      "stop": {
+        "type": "date"
+      },
+      "REMTime": {
+        "type": "long"
+      },
+      "naps": {
+        "type": "text"
+      }
+    }
+  }
+}

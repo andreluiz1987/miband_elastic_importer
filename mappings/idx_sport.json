@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "properties": {
+      "type": {
+        "type": "keyword"
+      },
+      "startTime": {
+        "type": "date"
+      },
+      "sportTime(s)": {
+        "type": "long"
+      },
+      "maxPace(/meter)": {
+        "type": "long"
+      },
+      "minPace(/meter)": {
+        "type": "long"
+      },
+      "distance(m)": {
+        "type": "long"
+      },
+      "avgPace(/meter)": {
+        "type": "long"
+      },
+      "calories(kcal)": {
+        "type": "long"
+      }
+    }
+  }
+}

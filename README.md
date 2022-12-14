@@ -48,12 +48,6 @@ used. Each batch is configured to ingest 30 documents.
  python ingestion.py
 ````
 
-### Run project
-
-````
- python ingestion_data.py
- ````
-
 Output
 
 ```

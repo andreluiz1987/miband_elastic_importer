@@ -45,7 +45,7 @@ Run the command below to start the ingest process. A logic of data partitioning 
 used. Each batch is configured to ingest 30 documents.
 
 ````
- python ingestion.py
+ python ingestion_data.py
 ````
 
 Output
